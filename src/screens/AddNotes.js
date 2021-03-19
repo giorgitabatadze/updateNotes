@@ -46,8 +46,8 @@ const notes = [
 function AddNotes({ visible, navigation, addNote, onClose }) {
   const [noteTitle, setNoteTitle] = useState("");
   const [noteDescription, setNoteDescription] = useState("");
-  console.log("1111", noteTitle);
-  console.log("desc", noteDescription);
+  // console.log("1111", noteTitle);
+  // console.log("desc", noteDescription);
 
   function onSaveNote() {
     // console.log(navigation);
